@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-Black:#000000 ;
+  --color-Gainsboro: #DBDBDB;
+  --font-Roboto : "Roboto", sans-serif;
+  --color-white:#ffffff;
+}
+header {
+  background-image: url('/assets/imgs/1.webp'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+@media (min-width : 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width : 992px) {
+  .container {
+    width: 992px;
+  }
+}
+@media (min-width : 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: space-between;
+  background-color: var(--color-white);
+  
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+}
+.logo img {
+  width: 38.72px;
+  height: 29px;
+  top: 23.5px;
+  left: 20px;
+  margin: 12px;
+}
+.course-platform h1 {
+  margin: 5px 20px ;
+  font-family: var(--font-Roboto);
+  font-weight: 500;
+  font-size: 28px;
+}
+nav {
+  display: flex;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+.nav-links li {
+  margin:  15px;
+  
+}
+.search-in-site {
+  margin: 8px ;
+  
+}
+.search-in-site input {
+  padding: 8px;
+  /* border: none; */
+}
+.nav-links a {
+  text-decoration: none;
+  color: var(--color-Black);
+  font-family: var(--font-Roboto);
+  font-weight: 400;
+}
+.nav-links li {
+  list-style: none;
+}
+.search-icon img{
+  position: absolute;
+  right: 2%;
+  top: 15px;
+}
+.Our-Online-Courses h2  {
+  margin: 400px 0 0 60px;
+  width: 542px;
+  height: 142px;
+  color: var(--color-Black);
+  font-family: var(--font-Roboto);
+  font-weight: 500;
+  font-size: 45px;
+  line-height:60px;
+}
+.but  {
+  display: flex;
+  gap: 30px;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 45px;
+  
+}
+.started {
+  width: 104px;
+  height: 36px;
+  color: var(--color-Black);
+  font-family: var(--font-Roboto);
+  background-color: var(--color-white);
+  border-radius: 20px;
+  border: solid 1px #ffffff;
+  cursor: pointer;
+}
