@@ -16,6 +16,7 @@ header {
   background-position: center; 
   background-repeat: no-repeat; 
   height: 100vh; 
+
 }
 
 .container {
@@ -51,6 +52,7 @@ header {
 
 .logo {
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
 }
 .logo img {
@@ -65,13 +67,16 @@ header {
   font-family: var(--font-Roboto);
   font-weight: 500;
   font-size: 28px;
+  flex-wrap: wrap;
 }
 nav {
   display: flex;
+  flex-wrap: wrap;
 }
 nav ul {
   display: flex;
   gap: 40px;
+  flex-wrap: wrap;
 }
 .nav-links li {
   margin:  15px;
@@ -175,6 +180,7 @@ nav ul {
 }
 .Browsers {
   width: 100%;
+  height: 600px;
   text-align: center;
 }
 .Browsers h2 {
@@ -194,4 +200,65 @@ nav ul {
 .browser-images img {
   width: 200px;
   height: 100px;
+}
+.footer {
+  display: flex;
+  text-align: center;
+  gap: 40px;
+  margin-left: 10%;
+}
+.subscribe {
+  margin-left: 10%;
+}
+.footer p {
+  width: 420px;
+  
+}
+.footer li  {
+  list-style: none;
+  font-family: var(--font-Roboto);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 35.41px;
+}
+.footer span {
+  font-family: var(--font-Roboto);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 90px;
+}
+.subscribe-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 10px;
+}
+
+.subscribe-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  flex: 1; 
+}
+
+.subscribe-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background-color: #0056b3;
 }
