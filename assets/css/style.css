@@ -8,6 +8,7 @@
   --color-Gainsboro: #DBDBDB;
   --font-Roboto : "Roboto", sans-serif;
   --color-white:#ffffff;
+  --color-poppins :"Poppins", sans-serif;
 }
 header {
   background-image: url('/assets/imgs/1.webp'); 
@@ -171,4 +172,26 @@ nav ul {
   height: 78px;
   margin-left: 5%;
   text-align: center;
+}
+.Browsers {
+  width: 100%;
+  text-align: center;
+}
+.Browsers h2 {
+  margin-top: 300px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  font-family: var(--color-poppins);
+}
+.browser-images {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 42px;
+}
+.browser-images img {
+  width: 200px;
+  height: 100px;
 }
